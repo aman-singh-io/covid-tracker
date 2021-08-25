@@ -1,0 +1,64 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+}
+.infoBox:not(:last-child) {
+  margin-right: 10px;
+}
+
+.infoxBox__cases {
+  color: #cc1034;
+  font-size: 600;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoxBox__title {
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+}
+
+.infoxBox--green {
+  color: #7fd922;
+}
+
+.infoxBox--green {
+  color: #cc1034;
+}
+
+.infoBox--black {
+  color: #1d2c4d;
+}
+
+.infoxBox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
+
+.infoBox--selected {
+  border-top: 10px solid #7fd922;
+}
+
+.infoBox--isRed {
+  border-color: #cc1034;
+}
+
+.infoBox--isBlack {
+  border-color: #1d2c4d;
+}
+
+.infoBox__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .infoBox {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}

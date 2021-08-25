@@ -1,0 +1,42 @@
+.table {
+  margin-top: 20px;
+  overflow: scroll;
+  height: 900px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f2f8;
+}
+
+.table__cases {
+  font-weight: 700;
+  font-size: large;
+  color: #6a5d5d;
+}
+
+.table__flag {
+  width: 80px;
+}
+
+.table__flagImg {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+@media (max-width: 1200px) {
+  .table {
+    width: 100%;
+  }
+}

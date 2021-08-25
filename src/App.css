@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #f0f2f6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+
+  gap: 2em;
+}
+
+.app__header {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.app__header > h1 {
+  color: #7dcdcd;
+  font-size: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__left {
+  flex: 1 1 75%;
+}
+
+.app__right {
+  flex: 1 1 25%;
+}
+
+.MuiInputBase-root {
+  font-family: inherit !important;
+}
+
+.MuiMenuItem-root {
+  font-family: inherit !important;
+}
+
+.app__graphBottom {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.app__graphBottomCard {
+  flex: 0 0 auto;
+
+  width: 49%;
+  background-color: white;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 20px;
+}
+
+.app__graphLine {
+  padding: 50px;
+  height: 60%;
+}
+
+@media (max-width: 1200px) {
+  .app {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
   }
-  to {
-    transform: rotate(360deg);
+
+  .app__graphBottom {
+    flex-direction: column;
+  }
+
+  .app__graphBottomCard {
+    width: 100%;
+  }
+
+  .app__graphLine {
+    max-height: 350px;
+    padding: 100px 40px;
   }
 }
