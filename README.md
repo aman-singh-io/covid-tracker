@@ -2,6 +2,10 @@
 
 > Built by **Amandeep SINGH** ([@aman-singh-io](https://github.com/aman-singh-io))
 
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+
 ## 📌 Overview
 
 **COVID-19 Tracker** is a responsive, real-time web application designed to track and visualize global and country-specific pandemic statistics. The application fetches live epidemiological data to display critical metrics such as confirmed cases, active cases, recoveries, and deaths, helping users stay informed with up-to-date health insights.
