@@ -13,7 +13,7 @@
 ## 🛠️ Core Technologies
 
 * **Frontend Framework:** React.js / Modern JavaScript
-* **Styling:** CSS3 / Tailwind CSS / Responsive Design
+* **Styling:** CSS3 / Responsive Design
 * **Data Source:** Public COVID-19 APIs (e.g., Disease.sh / Open COVID APIs)
 * **Data Visualization:** Charts / Statistical Cards
 
@@ -23,33 +23,6 @@
 * **Country-Specific Search:** Interactive search functionality to look up detailed metrics for individual countries.
 * **Interactive Data Display:** Clean visual representations of pandemic trends and numerical data.
 * **Responsive Interface:** Fully optimized layout ensuring seamless viewing across mobile, tablet, and desktop devices.
-
-## 🛠️ Local Development
-
-### Prerequisites
-
-* Node.js version 18.x or higher
-* `npm` or `yarn`
-
-### Installation & Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/aman-singh-io/covid-tracker.git
-   cd covid-tracker
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server:**
-   ```bash
-   npm run start
-   ```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
 ---
 
